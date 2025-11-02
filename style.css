@@ -25,7 +25,9 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
   margin-bottom: 0.5rem;
 }
 
@@ -157,22 +159,22 @@ span:hover {
   font-size: 0.9rem;
 }
 
-.p-container-two{
-    font-size: 15px;
+.p-container-two {
+  font-size: 15px;
 }
 
 .colum-one {
-    display: grid;
-    grid-template-columns: 400px 271px;
-    background-color: #e4e7eb;
-    border-radius: 4px;
-    width: 650px;
-    height: 150px;
-    padding: 6px;
-    position: relative;
+  display: grid;
+  grid-template-columns: 400px 271px;
+  background-color: #e4e7eb;
+  border-radius: 4px;
+  width: 650px;
+  height: 150px;
+  padding: 6px;
+  position: relative;
 }
 
-.colum-one::before{
+.colum-one::before {
   content: "";
   position: absolute;
   left: -5px;
@@ -194,60 +196,60 @@ span:hover {
   z-index: -1; /* fica atrás do círculo */
 }
 
-.title-colum-one{
+.title-colum-one {
   margin-left: 10px;
   padding-top: 1.5rem;
 }
 
-.p-container-two{
-  margin:0px
+.p-container-two {
+  margin: 0px;
 }
 
-.title-colum-one h4{
+.title-colum-one h4 {
   font-size: 1.1rem;
 }
 
-.info-colum-two li{
-    list-style: none;
+.info-colum-two li {
+  list-style: none;
 }
 
-.info-colum-two h4{
+.info-colum-two h4 {
   font-size: 1.1rem;
   margin: 0.5rem;
   margin-left: 0px;
   margin-top: 1.3rem;
 }
 
-.flex ul{
+.flex ul {
   margin: 0px;
   padding: 0px;
 }
 
-.flex ul{
+.flex ul {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.flex li{
+.flex li {
   background-color: rgb(244, 244, 250);
   padding: 0.4rem;
   border-radius: 5px;
 }
 
-.colum-infotwo{
-    display: grid;
-    grid-template-columns: 400px 271px;
-    background-color: #e4e7eb;
-    border-radius: 4px;
-    width: 650px;
-    height: 150px;
-    padding: 6px;
-    position: relative;
-    margin-top: 1rem;
+.colum-infotwo {
+  display: grid;
+  grid-template-columns: 400px 271px;
+  background-color: #e4e7eb;
+  border-radius: 4px;
+  width: 650px;
+  height: 150px;
+  padding: 6px;
+  position: relative;
+  margin-top: 1rem;
 }
 
-.colum-infotwo::before{
+.colum-infotwo::before {
   content: "2044 - 45";
   position: absolute;
   left: -90px;
@@ -258,7 +260,7 @@ span:hover {
   z-index: -1; /* fica atrás do círculo */
 }
 
-.colum-infotwo::after{
+.colum-infotwo::after {
   content: "";
   position: absolute;
   left: -3px;
@@ -269,12 +271,12 @@ span:hover {
   background-color: #3df026;
 }
 
-.p-container-two-g{
+.p-container-two-g {
   margin-right: 1.8rem;
   font-size: 0.9rem;
 }
 
-.container-experiencias{
+.container-experiencias {
   display: grid;
   grid-template-columns: 450px 500px;
   background-color: #1e201e;
@@ -283,12 +285,12 @@ span:hover {
   margin-bottom: 0;
 }
 
-.container-expe{
+.container-expe {
   text-transform: capitalize;
   margin-top: 2rem;
 }
 
-.title-form{
+.title-form {
   font-size: 7.4rem;
   word-break: break-all;
   text-align: left;
@@ -297,21 +299,20 @@ span:hover {
   margin-right: 9rem;
   box-sizing: border-box;
   margin-top: 2rem;
-  
 }
 
-.info-expe{
+.info-expe {
   margin-left: 2rem;
   color: #a0a2a3;
   font-size: 1.4rem;
 }
 
-.container-expe span{
-  color: #ffffff; 
+.container-expe span {
+  color: #ffffff;
   text-decoration: none;
 }
 
-.container-expe span:hover{
+.container-expe span:hover {
   color: #5a5353;
 }
 
@@ -319,7 +320,7 @@ span:hover {
   color: #333 !important;
 }
 
-.grid-curso{
+.grid-curso {
   display: grid;
   grid-template-columns: 180px 180px 180px;
   color: #fafafa;
@@ -330,36 +331,36 @@ span:hover {
   margin-left: 26px;
 }
 
-.info-curso h5{
+.info-curso h5 {
   color: #8f8989;
 }
 
-.info-curso p{
+.info-curso p {
   color: #ffffff;
   font-weight: 600;
 }
 
-.info-curso{
+.info-curso {
   background-color: #000000;
   padding: 1rem;
   border-radius: 5px;
 }
 
-.descript{
+.descript {
   color: #000000;
 }
 
-.grid-curso{
+.grid-curso {
   position: relative;
 }
 
-.info-curso{
+.info-curso {
   justify-items: center;
   text-align: center;
   position: relative;
 }
 
-.info-curso::before{
+.info-curso::before {
   content: "";
   position: absolute;
   height: 10px;
@@ -367,43 +368,43 @@ span:hover {
   top: 17px;
   left: 10px;
   border-radius: 5px;
-  
+
   background-color: #3df026;
 }
 
-.intensivo{
+.intensivo {
   display: flex;
   gap: 0.8rem;
   margin-left: 1.7rem;
 }
 
-.ux{
+.ux {
   display: flex;
   justify-content: space-between;
   margin-left: 4rem;
 }
 
-.intensivo h2{
+.intensivo h2 {
   font-size: 1.4rem;
 }
 
-.ux{
+.ux {
   color: #ffffff;
   font-size: 0.9rem;
 }
 
-.front{
+.front {
   display: flex;
   justify-content: space-between;
   margin-left: 4rem;
 }
 
-.front{
+.front {
   color: #ffffff;
   font-size: 0.9rem;
 }
 
-footer{
+footer {
   position: relative;
   height: 150px;
   background-color: #000000;
@@ -415,18 +416,181 @@ footer{
   align-items: center;
 }
 
-
-
-footer img{
+footer img {
   content: "";
   position: absolute;
   top: -60px;
   right: 1200px;
-  
 }
 
-footer p{
+footer p {
   color: white;
   text-align: center;
 }
 
+/* mobile */
+
+@media (max-width: 480px) {
+  .container-header h2 {
+    font-size: 2rem;
+    margin-left: 2.4rem;
+    padding-top: 1rem;
+  }
+
+  .menu {
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+
+  .menu a::before {
+    content: "";
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .img-perfil {
+    background-image: url(./img/André.png);
+    background-size: cover;
+    height: 300px;
+    width: auto;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+
+  .info-perfil h1 {
+    font-size: 1.7rem;
+    margin: 0px;
+
+    align-self: center;
+  }
+
+  .detalhe-container {
+    top: 6.8rem;
+    left: 3.8rem;
+    height: 10px;
+  }
+
+  .container-experiencia {
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+  }
+
+  .experiencia-title {
+    font-size: 4rem;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .experiencia-info {
+    text-align: center;
+  }
+
+  .colum-one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    gap: 10px;
+    padding: 1rem;
+    margin: 0 auto;
+  }
+
+  .colum-one::after {
+    display: none;
+  }
+
+  .colum-one::before {
+    display: none;
+  }
+
+  .mobile-esc {
+    display: none;
+  }
+
+  .title-colum-one {
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .title-colum-one h4 {
+    text-align: center;
+  }
+
+  .p-container-two {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .flex li {
+    list-style: none;
+  }
+
+  .colum-infotwo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    gap: 10px;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+  .colum-infotwo::before {
+    display: none;
+  }
+
+  .colum-infotwo::after {
+    display: none;
+  }
+
+  .p-container-two-g {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .container-experiencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title-form {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-left: 7rem;
+    display: inline;
+  }
+
+  .info-expe {
+    font-size: 1.2rem;
+  }
+
+  .front p {
+    padding-right: 1.8rem;
+  }
+
+  .grid-curso {
+    margin-left: 3rem;
+  }
+
+  footer img{
+    right: -30%;
+    left: 10%;
+    transform: translateX(-50%);
+    top: -35px;
+    height: 80px;
+  }
+}
