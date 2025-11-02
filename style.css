@@ -433,6 +433,13 @@ footer p {
 @media (max-width: 480px) {
   body {
     overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    overflow-x: hidden;
   }
 
   .container-header {
@@ -446,7 +453,7 @@ footer p {
   }
 
   .menu {
-    padding-left: 1rem;
+    padding-left: 5rem;
     padding-top: 2rem;
     gap: 0.8rem;
   }
@@ -477,6 +484,7 @@ footer p {
     max-width: 300px;
     margin-left: 0;
     margin-top: 2rem;
+    margin-bottom: 2.5rem;
   }
 
   .info-perfil h1 {
@@ -579,6 +587,12 @@ footer p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 2rem 0;
+    box-sizing: border-box;
   }
 
   .title-form {
