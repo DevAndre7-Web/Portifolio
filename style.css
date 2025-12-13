@@ -705,7 +705,6 @@ footer p {
   .info-perfil h1 {
     font-size: 1.7rem;
     margin: 0px;
-
     align-self: center;
   }
 
@@ -855,4 +854,18 @@ footer p {
     top: -35px;
     height: 80px;
   }
+}
+
+.business{
+  height: 2rem;
+  position: absolute;
+  top: 5.4rem;
+  left: 35rem;
+}
+
+.wa a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: solid underline;
 }
